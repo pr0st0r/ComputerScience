@@ -6,7 +6,7 @@ package Section1.paragraph2.exercise1_2_33;
  * и долгота в градусах двух точек земной поверхности) и выводит расстояние дуги большого круга между этими точками.
  * d = 60arccos(sin(x1)sin(x2) + cos(x1)cos(x2)cos(y1 - y2))
  * Обратите внимание: в формуле используются градусы, а тригометрические функции Java работают с радианами.
- * Используйте методы Math.tiRadians() и Math.toDegrees() для преобразования между угловыми единицами.
+ * Используйте методы Math.toRadians() и Math.toDegrees() для преобразования между угловыми единицами.
  * */
 public class Exercise {
     public static void main(String[] args){
